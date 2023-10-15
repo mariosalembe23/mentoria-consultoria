@@ -1,11 +1,37 @@
-<script></script>
+<script setup>
+window.addEventListener("load", () => {
+  const navbar = document.querySelector(".navbar");
+
+  if (!navbar) {
+    return;
+  }
+
+  const ScrollPage = () => {
+    if (window.scrollY === 0) {
+      navbar.classList.remove("shadow-lg");
+      navbar.classList.remove("border-b");
+    } else {
+      navbar.classList.add("shadow-lg");
+      navbar.classList.add("border-b");
+    }
+  };
+
+  ScrollPage();
+
+  document.addEventListener("scroll", ScrollPage);
+});
+</script>
 
 <template>
   <div
-    class="navbar w-full py-4 paisagem-tablet:px-7 flex items-center paisagem-tablet:justify-around justify-between px-4"
+    class="navbar w-full transition-all ease-in-out fixed top-0 left-0 right-0 z-30 border-indigo-400 bg-indigo-600 py-4 paisagem-tablet:px-7 flex items-center paisagem-tablet:justify-around justify-between px-4"
   >
     <div>
-      <a href="#" class="text-indigo-200 text-[1.18rem] font-semibold" title="Logotipo">
+      <a
+        href="#"
+        class="text-indigo-200 text-[1.18rem] font-semibold"
+        title="Logotipo"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -53,7 +79,10 @@
               >Ndengue</a
             >
           </li>
-          <button class="text-white transition-all hover:text-indigo-300 paisagem-tablet:inline-block hidden" title="Notificações">
+          <button
+            class="text-white transition-all hover:text-indigo-300 paisagem-tablet:inline-block hidden"
+            title="Notificações"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -72,7 +101,8 @@
 
           <button
             class="hover:text-indigo-300 paisagem-tablet:ps-4 paisagem-tablet:border-l border-indigo-400 transition-all text-white"
-          title="Pesquisar">
+            title="Pesquisar"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -90,7 +120,11 @@
           </button>
 
           <li class="paisagem-tablet:inline-block hidden">
-            <a href="#" class="hover:text-indigo-300 transition-all text-white" title="E-mail">
+            <a
+              href="#"
+              class="hover:text-indigo-300 transition-all text-white"
+              title="E-mail"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -107,7 +141,11 @@
             </a>
           </li>
           <li class="paisagem-tablet:inline-block hidden">
-            <a href="#" class="hover:text-indigo-300 transition-all text-white " title="Comunidade">
+            <a
+              href="#"
+              class="hover:text-indigo-300 transition-all text-white"
+              title="Comunidade"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
