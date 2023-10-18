@@ -2,6 +2,7 @@
 import Sobre from "./Sobre.vue";
 import Docs from "./Docs.vue";
 import Format from "./Format.vue";
+import Ndengue from './Ndengue.vue'
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Format from "./Format.vue";
     <Sobre />
     <Docs />
     <Format />
+    <Ndengue/>
   </main>
 </template>
 

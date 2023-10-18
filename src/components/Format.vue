@@ -22,7 +22,7 @@ import CardImage from "./CardImage.vue";
 
     <!-- CARDS -->
     <aside
-      class="max-w-3xl gap-3 mx-auto w-full  grid grid-cols-1 retrato-tablet:grid-cols-2 mt-4 items-center justify-center"
+      class="max-w-2xl gap-3 mx-auto w-full  grid grid-cols-1 retrato-tablet:grid-cols-2 mt-4 items-center justify-center"
     >
       <CardImage
         urlBackImg="bg-[url('/img/disciplina.jpg')]"
