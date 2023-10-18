@@ -20,6 +20,15 @@ window.addEventListener("load", () => {
 
   document.addEventListener("scroll", ScrollPage);
 });
+
+function showOffCanvas() {
+  const backgroundContainer = document.querySelector(".background");
+  const offCanvas = document.querySelector(".offcanvas");
+  backgroundContainer.classList.remove("hidden");
+  backgroundContainer.classList.add("lowEffect");
+
+  offCanvas.classList.add("visibleOffCanvas");
+}
 </script>
 
 <template>
@@ -79,25 +88,6 @@ window.addEventListener("load", () => {
               >Ndengue</a
             >
           </li>
-          <button
-            class="text-white transition-all hover:text-indigo-300 paisagem-tablet:inline-block hidden"
-            title="Notificações"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6 stroke-2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
-              />
-            </svg>
-          </button>
 
           <button
             class="hover:text-indigo-300 paisagem-tablet:ps-4 paisagem-tablet:border-l border-indigo-400 transition-all text-white"
@@ -162,24 +152,27 @@ window.addEventListener("load", () => {
               </svg>
             </a>
           </li>
-          <li class="paisagem-tablet:hidden inline-block">
-            <a href="#" class="hover:text-indigo-300 transition-all text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6 stroke-2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
-                />
-              </svg>
-            </a>
-          </li>
+
+          <button
+            @click="showOffCanvas"
+            class="hover:text-indigo-300 transition-all text-white paisagem-tablet:hidden inline-block"
+            title="menu"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6 stroke-2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+              />
+            </svg>
+          </button>
         </ul>
       </nav>
     </div>

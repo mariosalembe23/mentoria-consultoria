@@ -1,6 +1,7 @@
 <script setup>
 import NavBar from "./Navbar.vue";
 import Banner from "./Banner.vue";
+
 </script>
 
 <template>
