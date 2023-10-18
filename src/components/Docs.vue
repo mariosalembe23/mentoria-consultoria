@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="mt-20 p-3">
+  <section class="mt-20 p-2">
     <div class="w-full grid-cols-1 grid">
       <!-- PRIMEIRO CARD -->
       <div
@@ -14,7 +14,7 @@
             </a>
           </picture>
         </div>
-        <div class="p-3 small:text-center">
+        <div class="small:text-center">
           <header>
             <h5 class="text-xl text-indigo-600 font-medium">
               Uma Documentação Simples
@@ -36,7 +36,7 @@
 
             <a
               href="#"
-              class="inline-block mt-5 px-6 py-2 ring-2 ring-zinc-300 rounded text-[15px] font-medium text-indigo-800 transition-all hover:ring-indigo-600 hover:bg-indigo-600 hover:text-white"
+              class="inline-block mt-5 px-6 py-2 bg-indigo-600 rounded text-[15px] font-medium text-white transition-all hover:bg-indigo-700"
             >
               Ver agora
             </a>
@@ -55,7 +55,7 @@
             </a>
           </picture>
         </div>
-        <div class="p-3 small:text-center retrato-tablet:-order-1">
+        <div class="small:text-center retrato-tablet:-order-1">
           <header>
             <h5 class="text-xl text-indigo-600 font-medium">
               Variedade de Informações
@@ -99,8 +99,8 @@
             </a>
           </picture>
         </div>
-        <div class="paisagem-tablet:p-3 p-0 small:text-center">
-          <header> 
+        <div class="small:text-center retrato-tablet:p-3 p-0 retrato-tablet:text-start">
+          <header>
             <h5 class="text-xl text-indigo-600 font-medium">
               Precisa de mais? Peça por Consultorias!
             </h5>
@@ -119,10 +119,9 @@
               quisquam quos esse officia animi, fugit beatae, a possimus,
             </p>
 
-            
             <a
               href="#"
-              class="inline-block mt-5 px-6 py-2 ring-2 ring-zinc-300 rounded text-[15px] font-medium text-indigo-800 transition-all hover:ring-indigo-600 hover:bg-indigo-600 hover:text-white"
+              class="inline-block mt-5 px-6 py-2 bg-indigo-600 rounded text-[15px] font-medium text-white transition-all hover:bg-indigo-700"
             >
               Marcar Consultoria
             </a>

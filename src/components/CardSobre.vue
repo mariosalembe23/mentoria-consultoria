@@ -17,7 +17,7 @@ defineProps({
     </div>
     <div>
       <h6 class=" font-medium text-xl" :class="tituloCor">{{ tituloCard }}</h6>
-      <p class="py-2 text-[14px]" :class="textColor">
+      <p class="py-2 text-[15px]" :class="textColor">
         {{ conteudoCard }}
       </p>
     </div>

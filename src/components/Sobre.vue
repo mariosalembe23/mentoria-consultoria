@@ -6,7 +6,7 @@ import CardSobre from "./CardSobre.vue";
   <section>
     <header class="text-center">
       <h2
-        class="text-2xl retrato-tablet:text-3xl font-semibold text-indigo-600"
+        class="text-3xl font-semibold text-indigo-600"
       >
         Conheça-nos Melhor!
       </h2>

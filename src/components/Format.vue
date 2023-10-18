@@ -6,7 +6,7 @@ import CardImage from "./CardImage.vue";
   <section class="mt-10">
     <header class="text-center">
       <h2
-        class="text-2xl retrato-tablet:text-3xl font-semibold text-indigo-600"
+        class="text-3xl font-semibold text-indigo-600"
       >
         Receba Formações Totalmente Grátis!
       </h2>

@@ -64,6 +64,13 @@ function showOffCanvas() {
             <a
               href="#"
               class="text-indigo-100 text-[14px] font-medium transition-all hover:text-white"
+              >Início</a
+            >
+          </li>
+          <li class="paisagem-tablet:inline-block hidden">
+            <a
+              href="#"
+              class="text-indigo-100 text-[14px] font-medium transition-all hover:text-white"
               >Documentários</a
             >
           </li>

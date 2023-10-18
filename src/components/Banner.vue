@@ -1,10 +1,10 @@
 <script setup></script>
 
 <template>
-  <section class="w-full m-auto p-4 z-20 homePageBanner">
+  <section class="w-full m-auto p-3 z-20 homePageBanner">
     <div class="text-center">
       <h1
-        class="text-white paisagem-tablet:text-[2.8rem] retrato-tablet:text-[2.4rem] text-[1.7rem] font-bold"
+        class="text-white paisagem-tablet:text-[2.8rem] retrato-tablet:text-[2.4rem] text-[2rem] font-bold"
       >
         Educação e Mentoria: <br />
         Projetando seu Conhecimento!

@@ -10,12 +10,12 @@ html,
 body {
   font-size: 16px;
   background-color: #FFFFFF;
-  /* height: 1400px; */
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--PoppinsFont);
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--PoppinsFont) !important;
 }
 p{
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
 }

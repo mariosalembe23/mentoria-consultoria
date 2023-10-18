@@ -4,11 +4,11 @@
   <section class="mt-14">
     <header class="text-center">
       <h2
-        class="text-2xl retrato-tablet:text-3xl font-bold font-['Poppins'] text-zinc-600"
+        class="text-3xl font-semibold text-indigo-600"
       >
-        Uma Zona Livre com a <span class="text-indigo-600">Ndengue!</span>
+        Conteúdos Juvenis
       </h2>
-      <div class="text-center retrato-tablet:w-4/5 w-full m-auto py-2">
+      <div class="text-center retrato-tablet:w-4/5 w-full m-auto py-3">
         <p class="text-slate-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
           eveniet tempore ut laudantium, molestias sint quos tenetur ipsam culpa
