@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <div class=" p-5 h-80 rounded-lg flex flex-col justify-between select-none" :class="bgColor">
+  <div class=" p-5 h-60 rounded-lg flex flex-col justify-between select-none" :class="bgColor">
     <div>
       <img :src="iconPath" :class="classIcon" alt="icone-de-ilustração-de-visão" />
     </div>
