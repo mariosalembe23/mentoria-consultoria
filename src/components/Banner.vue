@@ -1,4 +1,4 @@
-<script></script>
+<script setup></script>
 
 <template>
   <section class="w-full m-auto p-4 z-20 homePageBanner">
