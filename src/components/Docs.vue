@@ -99,7 +99,7 @@
             </a>
           </picture>
         </div>
-        <div class="p-3 small:text-center">
+        <div class="paisagem-tablet:p-3 p-0 small:text-center">
           <header> 
             <h5 class="text-xl text-indigo-600 font-medium">
               Precisa de mais? Peça por Consultorias!
