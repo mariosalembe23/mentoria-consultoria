@@ -28,6 +28,8 @@ function showOffCanvas() {
   backgroundContainer.classList.add("lowEffect");
 
   offCanvas.classList.add("visibleOffCanvas");
+
+  document.body.style.overflow = 'hidden';
 }
 </script>
 

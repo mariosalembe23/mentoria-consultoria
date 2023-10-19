@@ -2,6 +2,7 @@
 function closeOffCanvas() {
   const backgroundContainer = document.querySelector(".background");
   backgroundContainer.classList.add("hidden");
+  document.body.style.overflow = 'auto';
 }
 </script>
 
